@@ -1,0 +1,13 @@
+/* Put the typing and jump bar back */
+:root :is(main,section)[class^=chatContent] > form > *:last-child[class^=typing] {
+  right: unset;
+  left: 0px;
+  border-top-left-radius: unset;
+  border-top-right-radius: 8px;
+}
+:root [class^=jumpToPresentBar] {
+  left: unset;
+  right: 0;
+  border-top-right-radius: unset;
+  border-top-left-radius: 8px;
+}

@@ -1,0 +1,46 @@
+/* Help button */
+[aria-label="Help"] {
+  display: none;
+}
+/* Hide Super Reaction Button */
+[id="message-add-reaction-1"] {
+  display: none;
+}
+[class*=effectsWrapper] {
+  display: none;
+}
+[class*="hideEmoji-"][class*="hideEmoji-"][class*="hideEmoji-"] {
+    opacity: 1;
+}
+/* Remove the "Active Now" section from the "Friends" tab */
+[class*="nowPlayingColumn-"] {
+    display: none;
+}
+/* Top Emoji Obnoxious New Highlight */
+#emoji-picker-tab-panel :is([class^=badgeLabel-], [class^=newlyAddedBadge]) {
+  display: none;
+}
+/* yeet stupid profile badges */
+[class^=profileBadges] > :is([aria-label^=HypeSquad], [aria-label^="Server boosting"], [aria-label="Early Supporter"]) {
+  display: none;
+}
+/* hide avatar decorations */
+[class^=avatarDecoration-] {
+  display: none;
+}
+svg[class^=bannerSVGWrapper-] > mask > image {
+  display: none;
+}
+svg[class*=avatarDecorationHint-] {
+  top: 0;
+  left: 0;
+}
+svg[class*=avatarDecorationHint-] > foreignObject {
+  width: 80px;
+  height: 80px;
+  mask: url(#svg-mask-avatar-status-round-80);
+}
+/* Stupid highlight */
+[class^=newlyAddedHighlight], [class^=newlyAddedHighlight]:hover {
+  border: none;
+}

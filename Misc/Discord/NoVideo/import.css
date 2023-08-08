@@ -1,0 +1,4 @@
+/* No video shit */
+[aria-label="Start Video Call"], [aria-label="Turn On Camera"], [aria-label="Join Video Call"] {
+  display: none;
+}
