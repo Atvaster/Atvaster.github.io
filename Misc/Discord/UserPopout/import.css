@@ -4,6 +4,3 @@
 [class*=userPopoutOverlay] > [class*=scroller] {
   margin-bottom: 4%;
 }
-[class*=userPopoutOverlay] > [class*=scroller] [placeholder*="Click to add a note"] {
-  height: 25px !important;
-}
