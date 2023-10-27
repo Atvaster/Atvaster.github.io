@@ -9,15 +9,15 @@
 [class*=effectsWrapper] {
   display: none;
 }
-[class*="hideEmoji-"][class*="hideEmoji-"][class*="hideEmoji-"] {
+[class*="hideEmoji_"][class*="hideEmoji_"][class*="hideEmoji_"] {
     opacity: 1;
 }
 /* Remove the "Active Now" section from the "Friends" tab */
-[class*="nowPlayingColumn-"] {
+[class*="nowPlayingColumn"] {
     display: none;
 }
 /* Top Emoji Obnoxious New Highlight */
-#emoji-picker-tab-panel :is([class^=badgeLabel-], [class^=newlyAddedBadge]) {
+#emoji-picker-tab-panel :is([class^=badgeLabel_], [class^=newlyAddedBadge]) {
   display: none;
 }
 /* yeet stupid profile badges */
@@ -25,17 +25,17 @@
   display: none;
 }
 /* hide avatar decorations */
-[class^=avatarDecoration-] {
+[class^=avatarDecoration_] {
   display: none;
 }
-svg[class^=bannerSVGWrapper-] > mask > image {
+svg[class^=bannerSVGWrapper_] > mask > image {
   display: none;
 }
-svg[class*=avatarDecorationHint-] {
+svg[class*=avatarDecorationHint_] {
   top: 0;
   left: 0;
 }
-svg[class*=avatarDecorationHint-] > foreignObject {
+svg[class*=avatarDecorationHint_] > foreignObject {
   width: 80px;
   height: 80px;
   mask: url(#svg-mask-avatar-status-round-80);
