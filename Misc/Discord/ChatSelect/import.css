@@ -1,18 +1,18 @@
 /* Channel selection */
-.containerDefault-YUSmu3:hover {
+[class*="containerDefault"]:hover{
   background-color: var(--primary-560);
   border-left: 3px solid var(--primary-500);
   border-radius: 0px;
 }
-.containerDefault-YUSmu3.selected-2TbFuo {
+[class*="containerDefault"][class*="selected"]{
   background-color: var(--primary-660);
   border-left: 3px solid var(--primary-560);
   border-radius: 0px;
 }
-.containerDefault-YUSmu3.selected-2TbFuo > div > div > .link-1_kTxV > [class*="emojiColorFill-"] {
+[class*="containerDefault"][class*="selected"] > div > div > [class*="link"] > [class*="emojiColorFill-"] {
 margin-left: -30px;
 margin-top: 0px;
 }
-.link-1_kTxV {
+[class*="link"] {
   background: none !important;
 }
